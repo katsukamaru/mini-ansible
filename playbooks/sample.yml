@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  gather_facts: yes
+  connection: local
+  user: ec2-user
+  become: yes
+  roles:
+     - yum

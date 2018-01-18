@@ -1,0 +1,5 @@
+- name: install mysql56
+  yum: name=mysql56
+
+- name: install mysql57
+  yum: name=mysql57
